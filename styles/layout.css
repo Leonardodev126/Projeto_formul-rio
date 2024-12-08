@@ -49,3 +49,7 @@ aside {
          }
     }
 }
+
+::placeholder {
+    color: var(--text-secondary);
+} 

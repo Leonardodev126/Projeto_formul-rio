@@ -18,10 +18,12 @@
     --semantic-error: #DC2626;
 }
 
-
-
-html, body {
+* {
     margin: 0;
     padding: 0;
+}
+
+html, body {
     height: 100%;
+    overflow: hidden;  /* Sem rolagem na página */
 }

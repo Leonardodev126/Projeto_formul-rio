@@ -26,3 +26,8 @@ legend {
         transform: translateY(-50%);
         }
 }
+
+/* Todo os fieldsets antes do fieldset */
+fieldset + fieldset {
+    margin-top: 3rem;
+}
